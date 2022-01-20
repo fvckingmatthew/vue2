@@ -1,0 +1,4 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',_vm._l((_vm.arMenu),function(menu,i){return _c('div',{key:i},[(!menu.path.includes(':code'))?_c('a',{staticClass:"link-menu",class:[{'active': menu.path === _vm.$route.path}],attrs:{"href":menu.path},on:{"click":function($event){return _vm.changePage(i)}}},[_vm._v(" "+_vm._s(menu.name)+" ")]):_c('div',{staticClass:"selected-menu",on:{"click":function($event){return _vm.$emit('openSelectedMenu', menu.idBlock)}}},[_c('a',{staticClass:"link-menu"},[_vm._v(" "+_vm._s(menu.name)+" ")])])])}),0)}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

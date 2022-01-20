@@ -1,0 +1,4 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"project-cell-menu"},[_c('div',{staticClass:"title-wrap-menu"},[_c('h2',[_vm._v("Проекты")]),_c('span',[_vm._v(_vm._s(_vm.countAll))])]),_c('div',{staticClass:"link-list"},_vm._l((_vm.filterArea),function(property,i){return _c('a',{key:i,staticClass:"hide-line",attrs:{"href":'/projects/?&PROPERTY_AREA_FILTER=' + property.ID},domProps:{"innerHTML":_vm._s(property.VALUE)},on:{"click":function($event){return _vm.changePage('/projects/?&PROPERTY_AREA_FILTER=' + property.ID)}}})}),0)])}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

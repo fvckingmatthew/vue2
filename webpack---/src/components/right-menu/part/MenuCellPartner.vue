@@ -1,0 +1,4 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"partner-cell-menu",class:{'open': _vm.toggleAccordion}},[_c('div',{staticClass:"title-wrap-menu"},[_c('h3',[_vm._v("Партнеры")]),_c('icon-base',{class:'triangle-toggle-btn',attrs:{"width":14,"height":12}},[_c('triangle-down')],1)],1),_c('div',{staticClass:"accordion-body",style:(_vm.styleAccordion)},[_c('div',{staticClass:"section-list"},_vm._l((_vm.arResult),function(item,i){return _c('div',{key:i,staticClass:"link-list"},[_c('a',{key:i,staticClass:"hide-line",class:[{'active': item.arFields.DETAIL_PAGE_URL === _vm.$route.path}],attrs:{"href":item.arFields.DETAIL_PAGE_URL},on:{"click":function($event){return _vm.changePage(item.arFields.DETAIL_PAGE_URL)}}},[_vm._v(" "+_vm._s(item.arFields.NAME)+" ")])])}),0)])])}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

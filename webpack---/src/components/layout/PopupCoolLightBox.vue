@@ -1,0 +1,4 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"popup-cool-block"},[(_vm.elems)?_c('CoolLightBox',{attrs:{"items":_vm.elems,"index":_vm.index,"slideshow":false,"effect":'fade',"overlayColor":'#000',"gallery":false},on:{"close":function($event){_vm.index = null}}},[_c('div',{staticClass:"line-close",attrs:{"slot":"close"},slot:"close"}),_c('icon-base',{attrs:{"slot":"icon-next","icon-name":"arrow-right","width":50,"height":28},slot:"icon-next"},[_c('arrow-right')],1),_c('icon-base',{attrs:{"slot":"icon-previous","icon-name":"arrow-left","width":50,"height":28},slot:"icon-previous"},[_c('arrow-left')],1)],1):_vm._e()],1)}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

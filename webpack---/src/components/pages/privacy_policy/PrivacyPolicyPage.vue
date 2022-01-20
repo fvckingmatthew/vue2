@@ -1,0 +1,5 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"privacy-policy-page container article",class:[
+            { 'stopAnimation': !_vm.getProgressAxios.statusResponseAxios && !_vm.changeCode} ]},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-23 title-block"},[_c('h1',{class:[{ 'moveTop': _vm.elementVisibleScroll.title.visible}],attrs:{"showScroll":"title"}},[_vm._v(_vm._s(_vm.$route.name))])]),_c('separator',{staticClass:"col-23",attrs:{"show":true,"static-separator":true}}),_c('div',{staticClass:"col-xl-7 col-23 title-block",class:{'change-screen': _vm.animateText}},[(_vm.arResult.arFields.NAME)?_c('h2',{class:[{ 'moveTop': _vm.elementVisibleScroll.name.visible}],attrs:{"showScroll":"name"}},[_vm._v(_vm._s(_vm.arResult.arFields.NAME))]):_vm._e()]),_c('div',{staticClass:"col-xl-16 offset-xl-0 offset-md-5 col-md-18 col-23 article"},[_c('div',{staticClass:"blog-text",domProps:{"innerHTML":_vm._s(_vm.arResult.arFields.DETAIL_TEXT)}})])],1)])}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

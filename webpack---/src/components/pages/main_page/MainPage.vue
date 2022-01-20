@@ -1,0 +1,4 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.arResult.arProperty)?_c('div',{staticClass:"main-page container"},[_c('swiper-main-page',{class:_vm.arStatusComponents.display[0],attrs:{"active-screen":_vm.activeScreen}}),_c('project-main-page',{class:_vm.arStatusComponents.display[1],attrs:{"active-screen":_vm.activeScreen,"result-main-page":_vm.arResult}}),_c('work-main-page',{class:_vm.arStatusComponents.display[2],attrs:{"active-screen":_vm.activeScreen,"result-main-page":_vm.arResult}}),_c('service-main-page',{class:_vm.arStatusComponents.display[3],attrs:{"active-screen":_vm.activeScreen,"result-main-page":_vm.arResult}}),_c('partner-main-page',{class:_vm.arStatusComponents.display[4],attrs:{"active-screen":_vm.activeScreen,"result-main-page":_vm.arResult}})],1):_vm._e()}
+var staticRenderFns = []
+
+export { render, staticRenderFns }
